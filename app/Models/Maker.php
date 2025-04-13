@@ -20,6 +20,6 @@ class Maker extends Model
 
     public function models(): HasMany
     {
-        return $this->hasMany(Model::class);
+        return $this->hasMany(\App\Models\Model::class);
     }
 }
